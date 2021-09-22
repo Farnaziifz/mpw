@@ -9,7 +9,9 @@
 				<div class="fz__title">
 					<h6>Front-End Developer</h6>
 				</div>
-				<div class="fz__social"></div>
+				<div class="fz__social">
+					<img src="~/assets/icons/instagram.svg" alt="" />
+				</div>
 				<div class="fz__button"></div>
 			</div>
 			<div class="fz__contect-box_container">
@@ -79,6 +81,13 @@ export default {
 				h6 {
 					color: #fff;
 					margin-top: 10px;
+				}
+			}
+			.fz__social {
+				img {
+					width: 30px;
+					height: 30px;
+					object-fit: contain;
 				}
 			}
 		}
