@@ -74,6 +74,10 @@ export default {
 		box-shadow: 0 0 30px -5px rgb(0 0 0 / 15%);
 		.fz__contect-box_container {
 			width: 100%;
+
+			.fz__contect-box {
+				overflow: scroll;
+			}
 		}
 		.fz__info-box {
 			width: 500px;
